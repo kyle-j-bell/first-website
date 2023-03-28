@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="page2.css">
+        <title>Submit a Comment!</title>
+    </head>
+    <body>
+        <!--Creates navigation bar.  This class will be used across all four pages.-->
+        <div class="navigation">
+            <a href="page1.html">Home</a>
+            <a href="page2.html">Submit a Comment</a>
+            <a href="page3.html">Links</a>
+            <a href="page4.html">Gallery</a>
+        </div>
+        <!--Creates the form for this page.-->
+        <div class="form_p2">
+            <form>
+                <!--Form's contents.-->
+                <fieldset>
+                    <legend>Want to submit a comment?  Just fill out this form:</legend>
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="age">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" max="130">
+                    </div>
+                    <div class="cool_guy">
+                        <label>Are you a cool guy?</label>
+                        <label for="yeah">Yeah<input type="radio" id="yeah" name="cool"></label>
+                        <label for="nope">Nope<input type="radio" id="nope" name="cool"></label>
+                    </div>
+                    <div class="comment_box">
+                        <label for="comment">Write your comment:</label>
+                        <br>
+                        <textarea id="comment" name="comment" rows="5" cols="55">My comment is...</textarea>
+                    </div>
+                    <div class="submit">
+                        <button>Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>

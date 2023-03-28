@@ -1,0 +1,45 @@
+/*Sets a gradient as the background for the whole page.*/
+body {
+    background-image: linear-gradient(to top, #ffffff, #ccffbb);
+    height: 100vh;
+}
+
+/*Puts each link inside a flexbox and creates space around them to "center" them.*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 0 teal;
+    margin: 0 10%;
+}
+
+/*Sets the font and color for the navigation bar links.*/
+.navigation > a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(200, 0, 0);
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+}
+
+/*Styles links when hovered.*/
+a:hover {
+    text-decoration: underline;
+}
+
+/*Centers the list and its heading and sets their font and font size.*/
+.heading_p3, .links_p3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/*Styles listed links.*/
+li > a {
+    color: darksalmon;;
+    text-decoration: none;
+}
